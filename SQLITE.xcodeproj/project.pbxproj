@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E875DF055F6D1D2401890550 /* Pods_SQLITE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC5CC2016DBDF1F491B3E96 /* Pods_SQLITE.framework */; };
+		EF628CE22B26EE8E000ABA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628CE12B26EE8E000ABA9B /* AppDelegate.swift */; };
+		EF628CE42B26EE8E000ABA9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628CE32B26EE8E000ABA9B /* SceneDelegate.swift */; };
+		EF628CE62B26EE8E000ABA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628CE52B26EE8E000ABA9B /* ViewController.swift */; };
+		EF628CE92B26EE8E000ABA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF628CE72B26EE8E000ABA9B /* Main.storyboard */; };
+		EF628CEB2B26EE8F000ABA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF628CEA2B26EE8F000ABA9B /* Assets.xcassets */; };
+		EF628CEE2B26EE8F000ABA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF628CEC2B26EE8F000ABA9B /* LaunchScreen.storyboard */; };
+		EF628CF62B26F000000ABA9B /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628CF52B26F000000ABA9B /* Entity.swift */; };
+		EF628CF92B26F090000ABA9B /* SqliteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628CF82B26F090000ABA9B /* SqliteDatabase.swift */; };
+		EF628CFB2B26F25F000ABA9B /* SqliteCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628CFA2B26F25F000ABA9B /* SqliteCommands.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		744A12F6972BD6F1ADF56CE5 /* Pods-SQLITE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLITE.debug.xcconfig"; path = "Target Support Files/Pods-SQLITE/Pods-SQLITE.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2394FECDA66353ECFF23B5 /* Pods-SQLITE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLITE.release.xcconfig"; path = "Target Support Files/Pods-SQLITE/Pods-SQLITE.release.xcconfig"; sourceTree = "<group>"; };
+		CEC5CC2016DBDF1F491B3E96 /* Pods_SQLITE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLITE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF628CDE2B26EE8E000ABA9B /* SQLITE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLITE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF628CE12B26EE8E000ABA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF628CE32B26EE8E000ABA9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF628CE52B26EE8E000ABA9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF628CE82B26EE8E000ABA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF628CEA2B26EE8F000ABA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF628CED2B26EE8F000ABA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF628CEF2B26EE8F000ABA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF628CF52B26F000000ABA9B /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		EF628CF82B26F090000ABA9B /* SqliteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDatabase.swift; sourceTree = "<group>"; };
+		EF628CFA2B26F25F000ABA9B /* SqliteCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteCommands.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF628CDB2B26EE8E000ABA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E875DF055F6D1D2401890550 /* Pods_SQLITE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BEE934A72850A6B5E189EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5CC2016DBDF1F491B3E96 /* Pods_SQLITE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9769AC24273858441C79A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				744A12F6972BD6F1ADF56CE5 /* Pods-SQLITE.debug.xcconfig */,
+				BC2394FECDA66353ECFF23B5 /* Pods-SQLITE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF628CD52B26EE8E000ABA9B = {
+			isa = PBXGroup;
+			children = (
+				EF628CE02B26EE8E000ABA9B /* SQLITE */,
+				EF628CDF2B26EE8E000ABA9B /* Products */,
+				C9769AC24273858441C79A24 /* Pods */,
+				78BEE934A72850A6B5E189EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF628CDF2B26EE8E000ABA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF628CDE2B26EE8E000ABA9B /* SQLITE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF628CE02B26EE8E000ABA9B /* SQLITE */ = {
+			isa = PBXGroup;
+			children = (
+				EF628CF72B26F079000ABA9B /* SQLITEDatabase */,
+				EF628CE12B26EE8E000ABA9B /* AppDelegate.swift */,
+				EF628CE32B26EE8E000ABA9B /* SceneDelegate.swift */,
+				EF628CE52B26EE8E000ABA9B /* ViewController.swift */,
+				EF628CF52B26F000000ABA9B /* Entity.swift */,
+				EF628CE72B26EE8E000ABA9B /* Main.storyboard */,
+				EF628CEA2B26EE8F000ABA9B /* Assets.xcassets */,
+				EF628CEC2B26EE8F000ABA9B /* LaunchScreen.storyboard */,
+				EF628CEF2B26EE8F000ABA9B /* Info.plist */,
+			);
+			path = SQLITE;
+			sourceTree = "<group>";
+		};
+		EF628CF72B26F079000ABA9B /* SQLITEDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				EF628CF82B26F090000ABA9B /* SqliteDatabase.swift */,
+				EF628CFA2B26F25F000ABA9B /* SqliteCommands.swift */,
+			);
+			path = SQLITEDatabase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF628CDD2B26EE8E000ABA9B /* SQLITE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF628CF22B26EE8F000ABA9B /* Build configuration list for PBXNativeTarget "SQLITE" */;
+			buildPhases = (
+				4F44DF283624C2BA40F7B524 /* [CP] Check Pods Manifest.lock */,
+				EF628CDA2B26EE8E000ABA9B /* Sources */,
+				EF628CDB2B26EE8E000ABA9B /* Frameworks */,
+				EF628CDC2B26EE8E000ABA9B /* Resources */,
+				C2F5E6B98FA9CA1BDF255A6E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLITE;
+			productName = SQLITE;
+			productReference = EF628CDE2B26EE8E000ABA9B /* SQLITE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF628CD62B26EE8E000ABA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EF628CDD2B26EE8E000ABA9B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF628CD92B26EE8E000ABA9B /* Build configuration list for PBXProject "SQLITE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF628CD52B26EE8E000ABA9B;
+			productRefGroup = EF628CDF2B26EE8E000ABA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF628CDD2B26EE8E000ABA9B /* SQLITE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF628CDC2B26EE8E000ABA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF628CEE2B26EE8F000ABA9B /* LaunchScreen.storyboard in Resources */,
+				EF628CEB2B26EE8F000ABA9B /* Assets.xcassets in Resources */,
+				EF628CE92B26EE8E000ABA9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F44DF283624C2BA40F7B524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLITE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F5E6B98FA9CA1BDF255A6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLITE/Pods-SQLITE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLITE/Pods-SQLITE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLITE/Pods-SQLITE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF628CDA2B26EE8E000ABA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF628CF62B26F000000ABA9B /* Entity.swift in Sources */,
+				EF628CFB2B26F25F000ABA9B /* SqliteCommands.swift in Sources */,
+				EF628CE62B26EE8E000ABA9B /* ViewController.swift in Sources */,
+				EF628CF92B26F090000ABA9B /* SqliteDatabase.swift in Sources */,
+				EF628CE22B26EE8E000ABA9B /* AppDelegate.swift in Sources */,
+				EF628CE42B26EE8E000ABA9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF628CE72B26EE8E000ABA9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF628CE82B26EE8E000ABA9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF628CEC2B26EE8F000ABA9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF628CED2B26EE8F000ABA9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF628CF02B26EE8F000ABA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF628CF12B26EE8F000ABA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF628CF32B26EE8F000ABA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744A12F6972BD6F1ADF56CE5 /* Pods-SQLITE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4DDR234XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLITE/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = creliohealth.SQLITE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF628CF42B26EE8F000ABA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2394FECDA66353ECFF23B5 /* Pods-SQLITE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4DDR234XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLITE/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = creliohealth.SQLITE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF628CD92B26EE8E000ABA9B /* Build configuration list for PBXProject "SQLITE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF628CF02B26EE8F000ABA9B /* Debug */,
+				EF628CF12B26EE8F000ABA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF628CF22B26EE8F000ABA9B /* Build configuration list for PBXNativeTarget "SQLITE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF628CF32B26EE8F000ABA9B /* Debug */,
+				EF628CF42B26EE8F000ABA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF628CD62B26EE8E000ABA9B /* Project object */;
+}
